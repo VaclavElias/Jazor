@@ -2,9 +2,7 @@
 
 This library helps with very common actions on the website which involve repeating JavaScript code across multiple different projects. Click a button or a link, do something in the backend and UI. This library takes an approach rather updating whole HTML blocks than granular tags with JSON and JavaScript libraries, so there is no need fiddling and mapping JSON objects to whatever UI you have.
 
-You might find this approach useful in certain project cases if you want to write minimum or no JavaScript. Still, JavaScript knowledge is required in certain scenarios.
- 
-There is a crossover with [Blazor](https://github.com/dotnet/blazor).
+You might find this approach useful in certain project cases if you want to write minimum or no JavaScript. Still, JavaScript knowledge is required in certain scenarios. There is a crossover with [Blazor](https://github.com/dotnet/blazor) or rather Jazor is filling a gap between static HTML/Razor pages and Blazor.
 
 When you could possibly use this library and not necessarily Blazor?
 - You have got many Partial views in Razor pages and views which you would like to reuse e.g. 
