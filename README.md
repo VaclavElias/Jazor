@@ -1,6 +1,6 @@
-# Jazor
+# Jazor Experiment
 
-This library helps with very common actions on the website which involve repeating JavaScript code across multiple different projects. Click a button or a link, do something in the backend and UI. This library takes an approach rather updating whole HTML blocks than granular tags with JSON and JavaScript libraries, so there is no need fiddling and mapping JSON objects to whatever UI you have.
+This experiment library helps with very common actions on the website which involve repeating JavaScript code across multiple different projects. Click a button or a link, do something in the backend and UI. This library takes an approach rather updating whole HTML blocks than granular tags with JSON and JavaScript libraries, so there is no need fiddling and mapping JSON objects to whatever UI you have.
 
 You might find this approach useful in certain project cases if you want to write minimum or no JavaScript. Still, JavaScript knowledge is required in certain scenarios. There is a crossover with [Blazor](https://github.com/dotnet/blazor) or rather Jazor is filling a gap between static HTML/Razor pages and Blazor.
 
@@ -22,6 +22,13 @@ _Note: Jazor name is just temporary name_
 
 1. Add ```jazor.js``` to your Razor page or _Layout.
 2. Add ```@addTagHelper *, Jazor``` to your _ViewImports.cshtml
+
+## ToDo
+- Add more funtionality
+- Make prompts and spinners plugable
+
+## Examples
+I will be heavily using [Bootstrap](https://getbootstrap.com/) in my examples.
 
 
 ## Example 1
