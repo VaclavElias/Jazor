@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <Nullable>enable</Nullable>
+    <Version>0.0.1</Version>
+    <Description>This library helps with very common actions on the website. Click a button/link, do something in backend and UI. This library takes approach updating rather HTML blocks than grunalar tags with JSON and JavaScript libraries</Description>
+    <PackageTags>aspnetcore,blazor,razor,jazor</PackageTags>
+    <Copyright>MIT</Copyright>
+    <Authors>Vaclav Elias</Authors>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <PackageIcon>icon-512x512.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+
+
+</Project>
