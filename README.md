@@ -11,12 +11,14 @@ When you could possibly use this library and not necessarily Blazor?
 ```c#
 public IActionResult OnGetNews() =>  Partial("_NewsPartial", 10);
 ```
- - You would like a hybrid of your current website and add simple SPA functionality
+- You would like a hybrid of your current website and add simple SPA functionality
 
 This library is using currently:
  
 - TypeScript to handle all common actions workload
 - ASP.NET Core 5.0 TagHelpers to simplify using **data-** and a bit help with strongly typed Controllers and Actions
+
+_Note: Jazor name is just temporary name_
 
 ## Requirements
 
