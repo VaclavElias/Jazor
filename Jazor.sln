@@ -5,6 +5,13 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jazor", "src\Jazor\Jazor.csproj", "{37D1F965-0D4A-401A-AB61-BA4C74C38D75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jazor.Examples", "src\Jazor.Examples\Jazor.Examples.csproj", "{DD4BF6A5-F859-4382-B7AC-E6CCF5DB681E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BF4A0D42-573A-488B-939B-AD81426FEF4A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{37D1F965-0D4A-401A-AB61-BA4C74C38D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37D1F965-0D4A-401A-AB61-BA4C74C38D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37D1F965-0D4A-401A-AB61-BA4C74C38D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4BF6A5-F859-4382-B7AC-E6CCF5DB681E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4BF6A5-F859-4382-B7AC-E6CCF5DB681E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4BF6A5-F859-4382-B7AC-E6CCF5DB681E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4BF6A5-F859-4382-B7AC-E6CCF5DB681E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
