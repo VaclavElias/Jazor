@@ -1,15 +1,22 @@
 # Jazor
 
-This library helps with very common actions on the website which involve repeating JavaScript across multiple different projects. Click a button or a link, do something in the backend and UI. This library takes an approach rather updating whole HTML blocks than granular tags with JSON and JavaScript libraries.
+This library helps with very common actions on the website which involve repeating JavaScript code across multiple different projects. Click a button or a link, do something in the backend and UI. This library takes an approach rather updating whole HTML blocks than granular tags with JSON and JavaScript libraries, so there is no need with fiddling and mapping JSON objects to whatever UI you have.
 
-You might find this useful in certain projects if you want to write minimum or no JavaScript. Still, JavaScript knowledge is required in certain scenarios.
- 
-There is a crossover with (Blazor)[https://github.com/dotnet/blazor] but you can still use here Partial views heavily. While Blazor is super optimised, here you can load even whole pages.
- 
+You might find this approach useful in certain project cases if you want to write minimum or no JavaScript. Still, JavaScript knowledge is requiredÂ in certain scenarios.
+Â 
+There is a crossover with (Blazor)[https://github.com/dotnet/blazor].
+
+When you could possibly use this library and not necessarily Blazor?
+- You have got many Partial views in Razor pages and views which you would like to reuse e.g. 
+```c#
+public IActionResult OnGetNews() =>  Partial("_NewsPartial", 10);
+```
+Â - You would like a hybrid of your current website and add simple SPA functionality
+
 This library is using currently:
- 
+Â 
 - TypeScript to handle all common actions workload
-- TagHelpers to simplify using **data-** and a bit help with 
+- ASP.NET Core 5.0 TagHelpers to simplify using **data-** and a bit help with strongly typed Controllers and Actions
 
 ## Requirements
 
