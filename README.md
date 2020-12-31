@@ -6,7 +6,7 @@ You might find this approach useful in certain project cases if you want to writ
 
 There is a crossover with [Blazor](https://github.com/dotnet/blazor) or rather Jazor is filling a gap between static HTML/Razor pages and Blazor.
 
-When you could possibly use this library and not necessarily Blazor?
+When could you possibly use this library and not necessarily Blazor?
 - You have got many Partial views in Razor pages and views which you would like to reuse e.g. 
 ```c#
 public IActionResult OnGetNews() =>  Partial("_NewsPartial", 10);
