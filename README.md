@@ -19,16 +19,14 @@ This library is using currently:
 - TypeScript to handle all common actions workload
 - ASP.NET Core 5.0 TagHelpers to simplify using **data-** and a bit help with strongly typed Controllers and Actions
 
-_Note: Jazor name is just temporary name_
-
 ## Requirements
 
 1. Add ```jazor.js``` to your Razor page or _Layout.
 2. Add ```@addTagHelper *, Jazor``` to your _ViewImports.cshtml
 
 ## ToDo
-- Add more funtionality
-- Make prompts and spinners plugable
+- Add more functionality
+- Make prompts and spinners pluggable
 
 ## Examples
 I will be heavily using [Bootstrap](https://getbootstrap.com/) in my examples.
